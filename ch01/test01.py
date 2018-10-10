@@ -14,9 +14,6 @@ print("NumPy array:\n{}".format(eye))
 
 
 
-
-
-
 sparse_matrix = sparse.csc_matrix(eye)
 print("\nSciPy sparse matrix:\n{}".format(sparse_matrix))
 
