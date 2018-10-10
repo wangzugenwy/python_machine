@@ -10,12 +10,14 @@ print("Feature names \n{}".format(iris_dataset['feature_names']))
 print("Type of data:{}".format(type(iris_dataset['data'])))
 print("Shape of data:{}".format(iris_dataset['data'].shape))
 
-
-
 print("First five rows of data:\n{}".format(iris_dataset['data'][:5]))
 print("Type of target:{}".format(type(iris_dataset['target'])))
 print("shape of target:{}".format(iris_dataset['target'].shape))
 print("Target:{}".format(iris_dataset['target']))
+
+
+
+
 
 
 from sklearn.model_selection import train_test_split

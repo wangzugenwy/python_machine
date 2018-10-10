@@ -3,7 +3,6 @@ import numpy as np
 x = np.array([[1,2,3],[4,5,6]])
 print(x)
 
-
 from scipy import sparse
 #创建一个二维NumPy数组，对角线为1，其余都为0
 eye = np.eye(4)
@@ -11,6 +10,12 @@ print("NumPy array:\n{}".format(eye))
 
 #将NumPy数组转换为CSR格式的SciPy稀疏矩阵
 #只保存非零元素
+
+
+
+
+
+
 
 sparse_matrix = sparse.csc_matrix(eye)
 print("\nSciPy sparse matrix:\n{}".format(sparse_matrix))
