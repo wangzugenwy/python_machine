@@ -10,10 +10,6 @@ print("NumPy array:\n{}".format(eye))
 
 #将NumPy数组转换为CSR格式的SciPy稀疏矩阵
 #只保存非零元素
-
-
-
-
 sparse_matrix = sparse.csc_matrix(eye)
 print("\nSciPy sparse matrix:\n{}".format(sparse_matrix))
 
